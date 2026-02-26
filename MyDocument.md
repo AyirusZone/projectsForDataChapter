@@ -22,7 +22,7 @@ The solution follows:
 # 🏗 Architecture
 
 ## High-Level Flow
-
+```
 S3 File Upload  
 ↓  
 SQS Queue / Lambda Trigger  
@@ -34,7 +34,7 @@ Spark Job (packaged .whl)
 Processed Data (Parquet)  
 ↓  
 KPI Outputs & Analytics  
-
+```
 ---
 
 ## Design Principles
@@ -50,7 +50,7 @@ KPI Outputs & Analytics
 ---
 
 # 📂 Project Structure
-
+```
 job-data-pipeline/
 │
 ├── config/
@@ -72,7 +72,7 @@ job-data-pipeline/
 ├── setup.py
 ├── requirements.txt
 └── main.py
-
+```
 
 ---
 
